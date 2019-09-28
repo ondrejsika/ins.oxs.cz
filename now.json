@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "ins.oxs.cz",
+  "alias": "ins.oxs.cz",
+  "builds": [
+    {
+      "use": "@now/static",
+      "config": {
+        "distDir": "."
+      }
+    }
+  ]
+}
