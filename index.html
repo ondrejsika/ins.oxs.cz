@@ -5,11 +5,11 @@
 <pre><code>cd && \
     apt update && \
     apt purge -y nano && \
-    apt install -y vim mc htop git sudo curl wget gnupg && \
+    apt install -y vim mc htop git sudo curl wget gnupg apt-transport-https && \
     mkdir -p .ssh && \
     curl -o .ssh/authorized_keys https://github.com/ondrejsika.keys</code></pre>
 <p>or one line</p>
-<pre><code>cd && apt update && apt purge -y nano && apt install -y vim mc htop git sudo curl wget gnupg && mkdir -p .ssh && curl -o .ssh/authorized_keys https://github.com/ondrejsika.keys</code></pre>
+<pre><code>cd && apt update && apt purge -y nano && apt install -y vim mc htop git sudo curl wget gnupg apt-transport-https && mkdir -p .ssh && curl -o .ssh/authorized_keys https://github.com/ondrejsika.keys</code></pre>
 <h3>Docker</h3>
 <pre><code>curl -fsSL https://ins.oxs.cz/docker.sh | sudo sh</code></pre>
 <h3>Docker Compose</h3>
