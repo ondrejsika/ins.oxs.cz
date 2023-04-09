@@ -42,8 +42,11 @@
 <pre><code>curl -fsSL https://ins.oxs.cz/terraform.sh | sudo sh</code></pre>
 <h3>Gitlab</h3>
 Requires Gitlab url in variable <code>EXTERNAL_URL</code>
-<pre><code>curl -fsSL https://ins.oxs.cz/gitlab.sh | sudo sh</code></pre>
-<pre><code>curl -fsSL https://ins.oxs.cz/gitlab.sh | EXTERNAL_URL="https://gitlab.example.com" sudo sh</code></pre>
+<pre><code>curl -fsSL https://ins.oxs.cz/gitlab-ce.sh | sudo sh</code></pre>
+<pre><code>curl -fsSL https://ins.oxs.cz/gitlab-ce.sh | EXTERNAL_URL="https://gitlab.example.com" sudo sh</code></pre>
+or
+<pre><code>curl -fsSL https://ins.oxs.cz/gitlab-ee.sh | sudo sh</code></pre>
+<pre><code>curl -fsSL https://ins.oxs.cz/gitlab-ee.sh | EXTERNAL_URL="https://gitlab.example.com" sudo sh</code></pre>
 <h3>Graylog</h3>
 <pre><code>curl -fsSL https://ins.oxs.cz/graylog.sh | sudo sh</code></pre>
 <hr />
