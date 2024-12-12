@@ -13,7 +13,7 @@
     apt purge -y nano && \
     apt install -y vim mc htop git sudo curl wget gnupg apt-transport-https && \
     mkdir -p .ssh && \
-    curl -o .ssh/authorized_keys https://github.com/ondrejsika.keys</code></pre>
+    curl https://github.com/ondrejsika.keys >> ~/.ssh/authorized_keys</code></pre>
 <p>or one line</p>
 <pre><code>cd && apt update && apt purge -y nano && apt install -y vim mc htop git sudo curl wget gnupg apt-transport-https && mkdir -p .ssh && curl -o .ssh/authorized_keys https://github.com/ondrejsika.keys</code></pre>
 <p>or in script</p>
