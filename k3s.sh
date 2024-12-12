@@ -1,6 +1,11 @@
 #!/bin/sh
 
-curl -fsSL https://raw.githubusercontent.com/sikalabs/slu/master/install.sh | sh
+if ! command -v slu &> /dev/null; then
+    echo "slu not found. Installing..."
+    curl -fsSL https://raw.githubusercontent.com/sikalabs/slu/master/install.sh | sh
+else
+    echo "slu is already installed."
+fi
 
 slu install-bin kubectl
 slu install-bin helm
