@@ -1,0 +1,6 @@
+#!/bin/sh
+#
+# Add Vojtech Pastyrik's SSH key to ~/.ssh/authorized_keys
+
+mkdir -p ~/.ssh
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDLQUceRegDU17LTWpXDV1YRqDOf3sRgbXTD4O9jEmYreuYIj2ySI+5Rf5x8oDjsrPFNZ+h2hFRC6SV7eS5tGDL5MH5treuMkqg7JK3HRfWSnvEEMHDP4jbMWS9AFG380QF2xe403Qsc34lYZ8QUif4DpJVjPAl5roClOe7dO6q456rV2Rv8nvYF8HMn7TpoGaTbW4QTnhLXKe8gm0eTi8gB9Jnly5ydn0kmpmxhNW2PgvVV8TGmuW4VwG5dZ1M5dV8u0ReiXlMlVBPz5gWLWDROB/PPsruPVyGTOb7U0nzf2/CZyQX8ucahDbvgMzHjG2avy9GFIfXcM6pQJ4SYQi2P9/oGLSy9In095/jepjYJhWYZde/O30SGYdSil5iIqknhLs052xcI/KZyCOqvbQ8oMvYxpI8/nXn4bWQ9HXrLP2MY2bJlTCvvILa7Rr6YVf+iDw/KqGXxhtX0RsQVI0DXJ4JUs4QwrUkKL7XPzdaiqCFPFPNOcHFpYGredSYNVM= vojtechpastyrik" >> ~/.ssh/authorized_keys
