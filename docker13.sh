@@ -19,4 +19,4 @@ Signed-By: /etc/apt/keyrings/docker.asc
 EOF
 
 apt update
-apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
