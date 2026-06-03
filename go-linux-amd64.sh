@@ -1,6 +1,6 @@
 #!/bin/sh
 
-VERSION=1.26.4
+VERSION=$(curl -sL "https://go.dev/VERSION?m=text" | head -1 | sed 's/go//')
 wget https://golang.org/dl/go$VERSION.linux-amd64.tar.gz
 rm -rf /usr/local/go && tar -C /usr/local -xzf go$VERSION.linux-amd64.tar.gz
 rm go$VERSION.linux-amd64.tar.gz
